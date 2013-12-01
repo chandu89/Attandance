@@ -36,51 +36,49 @@
 
     <%= javascript_include_tag "application" %>
   </head>
-  <body>
+  <body class="body-attandance-landing">
 
-    <div class="navbar navbar-fluid-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Attandance</a>
-          <div class="container-fluid nav-collapse">
-            <ul class="nav">
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+    <div class="container ">
+      <div class="row">
+        <div class="offset6 span12 logo" style="margin-left:50px">
+         
+        </div>
+        <div class="span8 pull-right text-right" style="padding-top:12px;">
+          <a class="heading-font-thin btn btn-link font-gray" href="#" style="font-size:22px;text-decoration:none;"> About Us </a>
+          <a class="heading-font-thin btn btn-link" href="/users/sign_in" style="font-size:24px;text-decoration:none;"> SIGN IN </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset6 span22 help-text-italics" style="margin-left:50px; margin-top: 20px; font-size: 20px; font-weight: normal;">
+          Attandance easy to deal in any organisation
+        </div>
+      </div>
+      <div class="row"> <!-- Top most header -->
+        <div class="span24 landing-header-text-box">
+
         </div>
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
-            </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
-        <div class="span9">
-          <%= bootstrap_flash %>
-          <%= yield %>
-        </div>
-      </div><!--/row-->
-
-      <footer>
-        <p>&copy; Company 2013</p>
-      </footer>
-
+    <div class="container-fluid research-hero-container">
+      <div class="container">
+        <div class="research-hero">
+          <div class="row">
+            <div class="span24" style="height:500px">
+              <div class="span4"></div>
+              <div class="span4 overlay-tile">
+                <%= bootstrap_flash %>
+                <%= yield %>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div> 
     </div> <!-- /container -->
-
+    <div class="span24" style="text-align:center;height:120px;padding-top:25px;">
+      <p class="pull-left" style="margin-left:50px;">Copyright © 2013 Attandance Inc. All rights reserved.</p>
+      <p class="pull-right" style="margin-right:50px;">
+      </p>
+    </div>
   </body>
 </html>

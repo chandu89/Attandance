@@ -1,0 +1,48 @@
+.body-attandance-landing{
+	padding: 0px;
+	background-color: #f8f8f8;
+	background-image: none;
+}
+.logo{
+	margin-top: 10px;
+}
+.heading-font-thin{
+	font-family: "proxima-nova-alt-ext-cond";
+	font-style: normal;
+	font-weight: 100;
+}
+.font-gray{
+	color: #B9B5A9;
+}
+.help-text-italics{
+	font-family: "ff-market-web";
+}
+.landing-header-text-box{
+	text-align: center;
+	margin-top: 45px;
+}
+.research-hero-container{
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	background-image: url("/assets/research_hero_texture.png");
+	background-repeat: repeat-x;
+}
+.overlay-tile{
+	padding: 20px;
+	margin-top: 40px;
+	margin-left: 44px;
+	height: auto;
+	background-color: #ffffff;
+	opacity: 0.90;
+	border-color: #30ace0;
+	border: 1px solid #30ace0;
+	-webkit-box-shadow: 0 0px 6px rgba(0,105,214,0.45);
+	box-shadow: 0 0px 6px rgba(0,105,214,0.45);
+	-webkit-border-radius:3px;
+	border-radius: 3px;
+}
+.research-hero{
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	
+}
